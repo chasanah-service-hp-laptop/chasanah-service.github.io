@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   
-  base: '/chasanah-service.github.io/',
+  base: '/chasanah-service.github.io',
   server: {
     fs: {
       strict: true,
