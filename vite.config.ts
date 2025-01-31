@@ -6,6 +6,9 @@ export default defineConfig({
   plugins: [react()],
   
   base: '/chasanah-service.github.io',
+  build: {
+    outDir: 'dist',
+  },
   server: {
     fs: {
       strict: true,
